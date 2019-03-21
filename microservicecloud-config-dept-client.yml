@@ -15,7 +15,8 @@ spring:
     password: "0000"
     driver-class-name: com.mysql.jdbc.Driver
    redis:
-      host: localhost:6380
+      host: localhost
+      port: 6380
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
@@ -47,7 +48,8 @@ spring:
     password: "0000"
     driver-class-name: com.mysql.jdbc.Driver
    redis:
-      host: localhost:6380 
+      host: localhost
+      port: 6380
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
